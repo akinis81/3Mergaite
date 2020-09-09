@@ -5,5 +5,41 @@ background-color: #F8F8F8;
 
 }
 
+header{
 
+}
 
+    header > img{
+        /* grieztai nuo tevo. Jei nera varneles tai tada gali header buti ir vaikas ir tevas */
+
+    }
+
+    nav{
+
+    }
+        a{
+
+        }
+        a:last-of-type{ 
+        /* last-of-type - paima paskutini elementa */
+            color: red;
+        }
+main{
+    
+    }
+
+    div{
+
+    }
+
+        h1{
+
+        }
+        
+        p{
+            
+        }
+        
+    main > img{
+
+    }
