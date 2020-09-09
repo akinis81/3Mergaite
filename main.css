@@ -6,40 +6,57 @@ background-color: #F8F8F8;
 }
 
 header{
-
+    display: inline-block;
+    width: 1000px;
+    
+    margin-left:calc( (100% - 1000px) / 2); 
+    /* (100%-1000px)/2; */
+    
 }
 
     header > img{
         /* grieztai nuo tevo. Jei nera varneles tai tada gali header buti ir vaikas ir tevas */
-
+        display: inline-block;
+        float: left;
     }
 
     nav{
-
+        display: inline-block;
+        float: right;
+        margin-top: 20px;
     }
         a{
 
         }
+
         a:last-of-type{ 
         /* last-of-type - paima paskutini elementa */
             color: red;
         }
 main{
-    
+    background-color: red;
+    width: 1000px;
+    margin-left:calc( ( 100% - 1000px) / 2);
     }
 
     div{
-
+        display: inline-block;
+        width: 40%;
+        float: left;
+        margin-top: 150px;
     }
 
         h1{
-
+                
         }
         
         p{
             
         }
-        
+
     main > img{
+        display: inline-block;
+        width: 60%;
+        float: right;
 
     }
