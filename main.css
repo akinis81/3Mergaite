@@ -2,7 +2,8 @@
 /* CTRL / */
 body{
 background-color: #F8F8F8;
-
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #9E9E9E;
 }
 
 header{
@@ -18,20 +19,37 @@ header{
         /* grieztai nuo tevo. Jei nera varneles tai tada gali header buti ir vaikas ir tevas */
         display: inline-block;
         float: left;
+        
     }
 
     nav{
         display: inline-block;
         float: right;
         margin-top: 20px;
+        
     }
         a{
+            display: inline-block;
+            float: left;
+            margin-left: 10px;
+            color:#9E9E9E;
+            text-decoration: none;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 18px;
+          border: 5px solid transparent;
+          border-radius: 21px;
 
         }
 
         a:last-of-type{ 
         /* last-of-type - paima paskutini elementa */
-            color: red;
+        border-color:  #9E9E9E;
+        text-transform: uppercase;
+        }
+        a:first-of-type{
+            margin-left: 0px;
         }
 main{
     display: inline-block;
@@ -45,14 +63,17 @@ main{
         float: left;
         margin-top: 150px;
         
+        
     }
 
         h1{
-                
+            font-size: 120px;   
+            margin: 0px; 
         }
         
         p{
-            
+           font-size: 32px; 
+           margin: 0px; 
         }
 
     main > img{
